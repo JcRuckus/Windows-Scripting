@@ -6,9 +6,9 @@ ECHO Script to get computer information remotely over the network
 ECHO __________________________________________________________________
 set /P hostname="Enter the device hostname or IP: "
 
-wmic /user:jrucker1@tstech.com /password:Skippy70!@ /node: %hostname% csproduct get vendor,name,identifyingnumber
+wmic /user: /node: %hostname% csproduct get vendor,name,identifyingnumber
 
-wmic /user:jrucker1@tstech.com /password:Skippy70!@ /node: %hostname% computersystem get username
+wmic /user: /node: %hostname% computersystem get username
 
 
 set /P c=Do you wish to acquire info from an additional device[Y/N]?
