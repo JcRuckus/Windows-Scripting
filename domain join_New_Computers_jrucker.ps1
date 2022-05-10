@@ -1,1 +1,1 @@
-Add-Computer -DomainName tstech.com -OUPath "OU=Americas New Build PCs,OU=Americas,DC=tstech,DC=com" -Credential TS\jrucker1 -restart -force
+Add-Computer -DomainName domainnamehere -OUPath "OU=,OU=,DC=,DC=" -Credential domain\username -restart -force
